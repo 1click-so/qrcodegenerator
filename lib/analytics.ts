@@ -13,6 +13,7 @@ declare global {
     rybbit?: {
       event: (eventName: string, eventParams?: Record<string, string | number | boolean>) => void;
     };
+    gtag?: (command: string, eventName: string, eventParams?: Record<string, string | number | boolean>) => void;
   }
 }
 
@@ -21,8 +22,12 @@ export function trackEvent(
   eventParams?: Record<string, string | number | boolean>
 ): void {
   try {
-    if (typeof window !== 'undefined' && window.rybbit) {
+    if (typeof window === 'undefined') return;
+    if (window.rybbit) {
       window.rybbit.event(eventName, { ...eventParams });
+    }
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', eventName, { ...eventParams });
     }
   } catch {
     // Silently fail

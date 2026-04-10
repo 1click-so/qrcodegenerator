@@ -68,16 +68,30 @@ export default function RootLayout({
     <html lang="en" className={`${outfit.variable} ${plusJakartaSans.variable}`}>
       <head>
         <meta name="theme-color" content="#7C3AED" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://analytics.fam.social" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
       </head>
       <body className="bg-paper font-body antialiased">
         <AdGlobal />
         {children}
 
-        {/* Rybbit Analytics — site ID to be set once project is created in Rybbit dashboard */}
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-VVLZWKJJ41"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-VVLZWKJJ41');`}
+        </Script>
+
+        {/* Rybbit Analytics */}
         <Script
           src="https://analytics.fam.social/api/script.js"
-          data-site-id="TODO_RYBBIT_SITE_ID"
+          data-site-id="3038a2bc9c1a"
           strategy="afterInteractive"
         />
       </body>
