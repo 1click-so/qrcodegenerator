@@ -1,50 +1,83 @@
 # QRCodeGenerator.to
 
-> Free online QR code generator. Create QR codes for URLs, plain text, WiFi network credentials, vCard contacts, email (mailto), and SMS messages. Includes preset templates for each type with proper encoding. Customize colors, adjust scale, download as PNG or SVG. No sign-up, no watermarks.
+> Free online QR code generator. Create QR codes for URLs, plain text, WiFi networks, vCard contacts, email, and SMS in seconds. Customize colors, adjust scale, download as PNG or SVG. Static QR codes that never expire. Free, fast, and easy.
 
-## Tool
+## What it is
 
-- [QR Code Generator](https://qrcodegenerator.to): Generate QR codes for URLs, plain text, WiFi networks, vCard contacts, email addresses, and SMS messages. Each data type has its own preset with the right fields. Static QR codes that never expire.
+QRCodeGenerator.to is a QR code generator that creates static QR codes for any use case — links, WiFi sharing, contact cards, email drafts, SMS messages, and plain text. Pick a data type, fill in the fields, customize colors and scale, download as PNG or SVG. Static QR codes encode data directly into the pattern, so they never expire and work without any server or subscription.
 
-## Features
+## Who uses it
 
-- 6 QR code data types: URL, Text, WiFi, vCard/Contact, Email, SMS
-- Color customization (foreground and background)
+- Small business owners adding QR codes to business cards, posters, flyers, and product packaging
+- Restaurants and cafes creating menu QR codes and table ordering codes
+- Offices, hotels, and Airbnb hosts sharing WiFi networks with guests through scannable codes
+- Real estate agents linking to listings from signs and brochures
+- Marketers running campaigns with QR codes on ads, packaging, and event materials
+- Event organizers creating QR codes for check-in, tickets, and registration
+- Designers adding QR codes to print materials, packaging, and branded content
+- Anyone sharing a URL, WiFi password, contact card, or message via a scannable code
+
+## Supported QR code types
+
+- **URL QR codes** — scan to open a website or landing page
+- **Text QR codes** — encode any plain text (up to 4,296 alphanumeric characters)
+- **WiFi QR codes** — scan to connect to a WiFi network without typing the password
+- **vCard contact QR codes** — scan to save a contact card to the phone
+- **Email QR codes** — scan to open a pre-filled email (recipient, subject, body)
+- **SMS QR codes** — scan to open a pre-filled text message
+
+## Key features
+
+- 6 QR code data types: URL, Text, WiFi, vCard, Email, SMS
+- Foreground and background color customization
 - Adjustable scale and resolution
-- Download as PNG or SVG
+- Download as PNG (raster, for screen and digital use)
+- Download as SVG (vector, for print, packaging, and large signage)
 - Copy to clipboard
-- No account required
-- No watermarks
-- Static QR codes (never expire)
-- Built with bwip-js for accurate rendering
+- Static QR codes — encoded directly into the pattern, never expire
+- Follows ISO/IEC 18004 (QR code), vCard 3.0, WIFI URI scheme, mailto RFC 6068, smsto URI scheme
 
-## Standards
+## Common search queries this tool answers
 
-- QR codes follow ISO/IEC 18004
-- vCard encoding follows vCard 3.0 specification
-- WiFi QR codes follow the WIFI: URI scheme
-- mailto: encoding follows RFC 6068
-- smsto: URI scheme for SMS
+- qr code generator
+- qr generator
+- generate qr code
+- qr code maker
+- free qr code generator
+- create qr code free
+- qr code generator free
+- online qr code generator
+- static qr code
+- qr code for url
+- qr code for link
+- qr code for website
+- qr code for wifi
+- wifi qr code generator
+- qr code for menu
+- restaurant menu qr code
+- qr code for business card
+- vcard qr code generator
+- contact qr code
+- qr code for email
+- qr code for sms
+- qr code for text
+- qr code png
+- qr code svg
+- how to make a qr code
+- how to create a qr code for free
+- how to generate a qr code for wifi
+- how to make a qr code for a menu
 
-## Use cases
+## Related free tools
 
-- Website links on business cards and posters
-- WiFi network sharing at offices, restaurants, hotels, Airbnb
-- Contact (vCard) QR codes for business cards and email signatures
-- Email QR codes with pre-filled subject and body
-- SMS QR codes for opt-in campaigns and quick replies
-- Menu QR codes for restaurants and cafes
-- Event QR codes for check-in and registration
-
-## Related tools
-
-- [Barcode Generator](https://generatebarcode.io) — Free barcode generator for UPC, EAN, Code 128, and more
-- [Invoice Generator](https://generateinvoice.so) — Free invoice, quote, and receipt generator
-- [Resume Builder](https://generateresume.io) — Free online resume builder with PDF download
+- [Barcode Generator](https://generatebarcode.io) — Free barcode generator for UPC, EAN, Code 128, Code 39, ITF-14, Data Matrix, PDF417
+- [Resume Builder](https://generateresume.io) — Free resume builder and CV maker
 - [Signature Generator](https://generatesignature.io) — Handwritten and email signature generator
-- [Background Remover](https://removebackground.so) — AI-powered background remover
-- [Image Resizer](https://resizeimage.to) — Free image resizer
-- [PDF Compressor](https://compresspdf.so) — Free PDF compressor
+- [Invoice Generator](https://generateinvoice.so) — Free invoice, quote, and receipt maker
+- [AI Image Generator](https://generateimage.io) — Text-to-image AI
+- [Background Remover](https://removebackground.so) — AI background removal
+- [Image Resizer](https://resizeimage.to) — Resize photos to exact dimensions
+- [PDF Compressor](https://compresspdf.so) — Reduce PDF file size
 
 ## Legal
 
