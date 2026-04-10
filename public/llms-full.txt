@@ -35,7 +35,7 @@ Encode any plain text. When scanned, the text displays on the phone. Supports up
 
 ### WiFi QR codes
 
-Generate a WiFi QR code that lets people connect to your network instantly. Enter the network name (SSID), password, and encryption type (WPA, WPA2, WEP, or None). Guests scan the code and connect automatically without typing the password. Uses the WIFI URI scheme that iOS 11+, Android 8+, and all modern phones recognize.
+Generate a WiFi QR code that lets people connect to your network instantly. Enter the network name (SSID), password, and encryption type (WPA, WEP, or None). Guests scan the code and connect automatically without typing the password. Uses the WIFI URI scheme that iOS 11+, Android 8+, and all modern phones recognize.
 
 Common uses: offices, hotels, Airbnb rentals, cafes, restaurants, co-working spaces, conference rooms.
 
