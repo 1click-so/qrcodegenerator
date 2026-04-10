@@ -42,7 +42,6 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               target="_blank"
-              rel="noopener"
               className="hover:text-charcoal transition-colors inline-flex items-center gap-1.5"
             >
               {link.label}
@@ -72,8 +71,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 target="_blank"
-                rel="noopener"
-                onClick={() => setMobileOpen(false)}
+                  onClick={() => setMobileOpen(false)}
                 className="text-sm font-medium text-softgray hover:text-charcoal transition-colors py-2 inline-flex items-center gap-1.5"
               >
                 {link.label}
