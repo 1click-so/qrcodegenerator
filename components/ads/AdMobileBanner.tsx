@@ -7,12 +7,17 @@ import { useAdRefresh } from "./useAdRefresh";
 
 const AD_CONFIG = { key: "fe4c9923bb70dfede483725880659ea0", width: 320, height: 50 };
 
+// TEMP: ads hidden until qrcodegenerator.to gets its own Adsterra publisher keys.
+const ADS_ENABLED = false;
+
 export default function AdMobileBanner() {
   const containerRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
 
-  const enabled = typeof window !== "undefined" && window.innerWidth < 640;
+  const enabled = ADS_ENABLED && typeof window !== "undefined" && window.innerWidth < 640;
   useAdRefresh(containerRef, AD_CONFIG, enabled, pathname);
+
+  if (!ADS_ENABLED) return null;
 
   useEffect(() => {
     if (typeof window !== "undefined" && window.innerWidth < 640) {

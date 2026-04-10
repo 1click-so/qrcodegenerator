@@ -12,9 +12,14 @@ function isExcluded(pathname: string): boolean {
   );
 }
 
+// TEMP: ads hidden until qrcodegenerator.to gets its own Adsterra publisher keys.
+// Do not remove the code below — the components stay wired for when real keys are added.
+const ADS_ENABLED = false;
+
 export default function AdGlobal() {
   const pathname = usePathname();
 
+  if (!ADS_ENABLED) return null;
   if (isExcluded(pathname)) return null;
 
   return (
