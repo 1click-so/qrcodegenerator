@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #7C3AED;
+  --color-accent: #6D28D9;
+  --color-charcoal: #1A1A1A;
+  --color-softgray: #64748B;
+  --color-paper: #FAFAFA;
+
+  --font-display: var(--font-outfit), sans-serif;
+  --font-body: var(--font-body), sans-serif;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FAFAFA;
+  overflow-x: hidden;
+  touch-action: pan-y;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+button, a {
+  touch-action: manipulation;
+}
+
+/* QR-dot decorative pattern */
+.qr-dots {
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(124, 58, 237, 0.06) 1px,
+      transparent 1px
+    );
+  background-size: 18px 18px;
+}
+
+/* Subtle grid for feature section */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(0,0,0,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="9" r="1" fill="rgba(124,58,237,0.08)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="#FAFAFA"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <rect y="618" width="1200" height="12" fill="#7C3AED"/>
+
+  <text x="80" y="280" font-family="Outfit, sans-serif" font-weight="800" font-size="82" fill="#1A1A1A" letter-spacing="-1.5">Free QR code</text>
+  <text x="80" y="380" font-family="Outfit, sans-serif" font-weight="800" font-size="82" fill="#7C3AED" letter-spacing="-1.5">generator.</text>
+
+  <text x="80" y="430" font-family="Outfit, sans-serif" font-weight="400" font-size="24" fill="#64748B">URL  ·  WiFi  ·  vCard  ·  Email  ·  SMS  ·  Plain Text</text>
+
+  <text x="80" y="540" font-family="Outfit, sans-serif" font-weight="700" font-size="22" fill="#1A1A1A">QRCodeGenerator.to</text>
+  <text x="340" y="540" font-family="Outfit, sans-serif" font-weight="500" font-size="20" fill="#64748B">100% Free  ·  No sign-up required</text>
+
+  <rect x="950" y="50" width="200" height="40" rx="20" fill="#7C3AED" opacity="0.08"/>
+  <text x="1050" y="76" font-family="Outfit, sans-serif" font-weight="700" font-size="14" fill="#7C3AED" text-anchor="middle" letter-spacing="1.5">FREE TOOL</text>
+</svg>

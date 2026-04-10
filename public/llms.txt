@@ -1,0 +1,52 @@
+# QRCodeGenerator.to
+
+> Free online QR code generator. Create QR codes for URLs, plain text, WiFi network credentials, vCard contacts, email (mailto), and SMS messages. Includes preset templates for each type with proper encoding. Customize colors, adjust scale, download as PNG or SVG. No sign-up, no watermarks.
+
+## Tool
+
+- [QR Code Generator](https://qrcodegenerator.to): Generate QR codes for URLs, plain text, WiFi networks, vCard contacts, email addresses, and SMS messages. Each data type has its own preset with the right fields. Static QR codes that never expire.
+
+## Features
+
+- 6 QR code data types: URL, Text, WiFi, vCard/Contact, Email, SMS
+- Color customization (foreground and background)
+- Adjustable scale and resolution
+- Download as PNG or SVG
+- Copy to clipboard
+- No account required
+- No watermarks
+- Static QR codes (never expire)
+- Built with bwip-js for accurate rendering
+
+## Standards
+
+- QR codes follow ISO/IEC 18004
+- vCard encoding follows vCard 3.0 specification
+- WiFi QR codes follow the WIFI: URI scheme
+- mailto: encoding follows RFC 6068
+- smsto: URI scheme for SMS
+
+## Use cases
+
+- Website links on business cards and posters
+- WiFi network sharing at offices, restaurants, hotels, Airbnb
+- Contact (vCard) QR codes for business cards and email signatures
+- Email QR codes with pre-filled subject and body
+- SMS QR codes for opt-in campaigns and quick replies
+- Menu QR codes for restaurants and cafes
+- Event QR codes for check-in and registration
+
+## Related tools
+
+- [Barcode Generator](https://generatebarcode.io) — Free barcode generator for UPC, EAN, Code 128, and more
+- [Invoice Generator](https://generateinvoice.so) — Free invoice, quote, and receipt generator
+- [Resume Builder](https://generateresume.io) — Free online resume builder with PDF download
+- [Signature Generator](https://generatesignature.io) — Handwritten and email signature generator
+- [Background Remover](https://removebackground.so) — AI-powered background remover
+- [Image Resizer](https://resizeimage.to) — Free image resizer
+- [PDF Compressor](https://compresspdf.so) — Free PDF compressor
+
+## Legal
+
+- [Privacy Policy](https://qrcodegenerator.to/privacy)
+- [Terms of Service](https://qrcodegenerator.to/terms)

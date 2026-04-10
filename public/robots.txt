@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qrcodegenerator.to/sitemap.xml
+Host: https://qrcodegenerator.to
+
+# AI Crawler Discovery
+# https://llmstxt.org
+LLMs-Txt: https://qrcodegenerator.to/llms.txt
+LLMs-Full-Txt: https://qrcodegenerator.to/llms-full.txt

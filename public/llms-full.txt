@@ -1,0 +1,86 @@
+# QRCodeGenerator.to — Complete Documentation
+
+QRCodeGenerator.to is a free online QR code generator. It creates static QR codes for URLs, WiFi networks, contact cards, email addresses, SMS messages, and plain text. Customize colors, adjust scale, download as PNG or SVG.
+
+## What is a QR code
+
+A QR code (Quick Response code) is a 2D barcode that stores data in a grid of black and white squares called modules. It can hold up to 4,296 alphanumeric characters, uses built-in error correction, and can be scanned by any smartphone camera. Unlike 1D barcodes, QR codes work at an angle and remain readable even if partially damaged.
+
+## Supported QR code data types
+
+### URL QR codes
+Create QR codes for any website URL. When scanned, the phone opens the link directly in the browser. Perfect for business cards, posters, product packaging, and menus. The generator adds the required URL prefix automatically.
+
+### Text QR codes
+Encode any text into a QR code. The text displays on the phone when scanned. This works for serial numbers, reference codes, instructions, or any data that does not fit the other categories. A QR code can hold up to 4,296 alphanumeric characters.
+
+### WiFi QR codes
+Generate a WiFi QR code that lets people connect to your network instantly. Enter your network name (SSID), password, and encryption type (WPA, WEP, or None). Guests scan the code and connect automatically without typing the password. Uses the standard WIFI: URI scheme that all modern phones recognize.
+
+### Contact (vCard) QR codes
+Create a QR code that saves a contact card to the phone's address book. Enter name, phone number, and email. When scanned, the contact saves in one tap. Uses vCard 3.0 format. Great for business cards, email signatures, and conference badges.
+
+### Email QR codes
+Generate a QR code that opens a pre-filled email. Set recipient, subject, and body text. When scanned, the phone opens the default email app with everything filled in. Uses the mailto: URI scheme.
+
+### SMS QR codes
+Create a QR code that opens a pre-filled text message. Enter phone number and message. When scanned, the phone opens the messaging app ready to send. Uses the smsto: URI scheme.
+
+## Static vs dynamic QR codes
+
+Static QR codes encode the data directly into the pattern of squares. The information is baked into the code itself. Static QR codes are free, never expire, and work without an internet connection. QRCodeGenerator.to creates static QR codes.
+
+Dynamic QR codes contain a short redirect URL instead of the actual data. When scanned, they redirect through a tracking server to a destination that can be changed later. Dynamic QR codes require a paid subscription and stop working if the service shuts down. They are useful for campaigns where you need to change the destination or track scans.
+
+## QR code size and print guidelines
+
+- Close-range scanning (business cards, table tents): minimum 2cm × 2cm (about 0.8 inches)
+- Signs or posters scanned from a few feet away: at least 5cm × 5cm
+- Large signage or billboards: roughly 10% of the expected scanning distance in width
+- Always maintain high contrast between foreground and background
+- Keep the foreground dark and the background light
+- Black on white is the safest combination
+- Avoid inverting colors — some older cameras struggle with inverted codes
+
+## File formats
+
+- PNG: raster image, best for screen use (websites, emails, presentations)
+- SVG: vector image, best for print (business cards, packaging, signage, billboards)
+- SVG files scale to any size without losing sharpness
+- Use the scale slider to increase PNG resolution for larger print sizes
+
+## Common questions
+
+### Can I generate a QR code for free?
+Yes. QRCodeGenerator.to is 100% free with no limits on how many QR codes you create. No account needed, no watermarks, no hidden charges. Static QR codes never expire.
+
+### How long will my QR code last?
+Static QR codes last forever. The data is encoded directly into the pattern and does not depend on any external server or subscription. As long as the encoded content remains valid (for example, the URL still exists), the QR code keeps working.
+
+### Can I customize the colors?
+Yes. Use the color picker in the toolbar to change foreground and background colors. QR scanners need high contrast to read reliably. Keep the foreground dark and the background light. Black on white is the safest.
+
+### What size should a QR code be?
+It depends on the scanning distance. For business cards, minimum 2cm × 2cm. For posters, at least 5cm × 5cm. For billboards, roughly 10% of the viewing distance in width.
+
+### Will my QR code scan on all phones?
+Yes. QRCodeGenerator.to creates standard QR codes that follow the ISO/IEC 18004 specification. All modern smartphones (iOS 11+ and Android 8+) can scan them with the built-in camera app. No separate QR code reader app is required.
+
+### Can I create a QR code with a logo?
+The current version focuses on fast, standards-compliant QR codes. Logo overlays are on the roadmap.
+
+## Related tools
+
+QRCodeGenerator.to is part of a portfolio of free online tools built by Fam!Social:
+
+- Barcode Generator (generatebarcode.io) — UPC, EAN, Code 128, Data Matrix, PDF417
+- Invoice Generator (generateinvoice.so) — Professional invoices, quotes, receipts
+- Resume Builder (generateresume.io) — Free resume builder with PDF download
+- Signature Generator (generatesignature.io) — Handwritten and email signatures
+- Background Remover (removebackground.so) — AI-powered background removal
+- Image Resizer (resizeimage.to) — Free image resizer
+- PDF Compressor (compresspdf.so) — Free PDF compressor
+
+## Contact
+
+For questions or feedback, visit fam.social
